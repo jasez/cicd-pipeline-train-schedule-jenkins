@@ -8,7 +8,7 @@ var indexRouter = require('./routes/index');
 var trainsRouter = require('./routes/trains');
 
 var app = express();
-
+//get this
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
